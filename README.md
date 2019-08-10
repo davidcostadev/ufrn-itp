@@ -2,15 +2,13 @@
 
 My studies with language C
 
-
 ## How to use
 
-`npm run watch` - It will watch all *.c files , when it have change it will compile the current class
+`npm run watch [name-file.c]` - It will watch all \*.c files , when it have change it will compile the current file
 
 Now just run your program
 
 `./output/{name}`
-
 
 ## Todo
 
