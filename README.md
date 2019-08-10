@@ -4,7 +4,7 @@ My studies with language C
 
 ## How to use
 
-`npm run watch [name-file.c]` - It will watch all \*.c files , when it have change it will compile the current file
+`npm run watch [name_file.c]` - It will watch all \*.c files , when it have change it will compile the current file
 
 Now just run your program
 
