@@ -1,0 +1,25 @@
+{
+  "name": "ufrn-itp",
+  "version": "1.0.0",
+  "description": "My studies with C",
+  "main": "compile.js",
+  "scripts": {
+    "watch": "nodemon -e c compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidcostadev/ufrn-itp.git"
+  },
+  "keywords": [
+    "C"
+  ],
+  "author": "David Costa <davidcostadev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidcostadev/ufrn-itp/issues"
+  },
+  "homepage": "https://github.com/davidcostadev/ufrn-itp#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
