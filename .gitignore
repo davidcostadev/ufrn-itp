@@ -55,3 +55,4 @@ dkms.conf
 output/*
 !output/.keep
 node_modules
+.vscode
