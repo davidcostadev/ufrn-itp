@@ -7,10 +7,10 @@ int main()
   float price;
   float total = 0;
 
-  scanf("%i %i %f", &id, &unit, &price);
+  scanf("%d %d %f", &id, &unit, &price);
   total += unit * price;
 
-  scanf("%i %i %f", &id, &unit, &price);
+  scanf("%d %d %f", &id, &unit, &price);
   total += unit * price;
 
   printf("VALOR A PAGAR: R$ %.2f\n", total);
