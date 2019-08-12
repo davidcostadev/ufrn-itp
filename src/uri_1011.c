@@ -8,7 +8,7 @@ int main()
 
   scanf("%lf", &radius);
 
-  float PI = 3.14159;
+  double PI = 3.14159;
 
   double calc = (4 / 3.0) * PI * pow(radius, 3);
 
