@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 
 const programName = process.argv[process.argv.length - 1];
 
-const command = `cc ./src/${programName}.c -o ./output/${programName}`;
+const command = `cc ./src/${programName}.c -o ./output/${programName} -lm`;
 
 exec(command, (err, stdout, stderr) => {
   if (err) {
