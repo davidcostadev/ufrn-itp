@@ -3,9 +3,13 @@
 
 int main()
 {
-  int car;
+  int km;
 
-  scanf("%d", &car);
+  scanf("%d", &km);
+
+  int minutes_distance = km * 2;
+
+  printf("%d minutos\n", minutes_distance);
 
   return 0;
 }
